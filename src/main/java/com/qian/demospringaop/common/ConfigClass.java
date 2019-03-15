@@ -11,6 +11,6 @@ import org.springframework.context.annotation.ImportResource;
  * @Date 2019/3/13 21:12
  */
 @Configuration
-@ImportResource("classpath:application-bean.xml")
+//@ImportResource("classpath:application-bean2.xml")
 public class ConfigClass {
 }

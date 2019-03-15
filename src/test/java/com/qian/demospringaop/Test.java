@@ -13,12 +13,12 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
  */
 public class Test {
 	public static void main(String[] args) {
-		ApplicationContext appCtx = new FileSystemXmlApplicationContext("classpath:application-bean3.xml");
+		ApplicationContext appCtx = new FileSystemXmlApplicationContext("classpath:application-bean2.xml");
 		//Sleepable me = (Sleepable)appCtx.getBean("proxy");
 		//		//me.sleep();
 
 		Sleepable sleepable = (Sleepable) appCtx.getBean("sleepable");
 
-		sleepable.sleep();
+		sleepable.sleep(1);
 	}
 }

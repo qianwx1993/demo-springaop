@@ -14,4 +14,10 @@ public class SleepableImpl implements Sleepable {
 	public void sleep() {
 		System.out.println("\n睡觉！不休息哪里有力气学习！\n");
 	}
+
+	@Override
+	public int sleep(int i) {
+		System.out.println("\n睡觉！不休息哪里有力气学习！\n"+i+1);
+		return i+1;
+	}
 }

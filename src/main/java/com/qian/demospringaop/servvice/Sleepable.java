@@ -8,4 +8,6 @@ package com.qian.demospringaop.servvice;
  */
 public interface Sleepable {
 	public void sleep();
+
+	public int sleep(int i);
 }
