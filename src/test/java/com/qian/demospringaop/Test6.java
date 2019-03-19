@@ -2,7 +2,6 @@ package com.qian.demospringaop;
 
 import com.qian.demospringaop.servvice.Encoreable;
 import com.qian.demospringaop.servvice.Sleepable;
-import com.sun.org.apache.xpath.internal.operations.String;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
